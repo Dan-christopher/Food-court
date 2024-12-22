@@ -1,0 +1,164 @@
+@media (max-width: 1090px)
+{
+    html {
+        /* 9px / 16px  */
+        font-size: 50.25%;
+      }
+    /* Mobile Navigation */
+    .headline {
+        
+    flex-direction: column;
+    padding-right: 3rem;
+    }
+    .hero{
+        gap: 6rem;
+    }
+    .hero-image{
+        width: 80%;
+        height: auto;
+     }
+     .card{
+        justify-self: center;
+     }
+     .card-container{
+        grid-template-columns: repeat(2 , 1fr);
+        /* Two rows of equal height */
+       
+        gap: 5rem;
+        
+     }
+     .diet-types{
+        grid-column: 1 / -1;
+        justify-self: center;
+     }
+     .people{
+        padding: 4rem 0 3rem 0;
+     }
+
+}
+
+
+@media (max-width:961px){
+
+    html {
+        /* 9px / 16px  */
+        font-size: 45.25%;
+      }
+    .hero{
+        grid-template-columns: 1fr;
+        padding: 0 8rem;
+        gap: 6.4rem;
+        justify-self: center;
+    }
+    .button{
+        justify-self: center;
+    }
+    .hero-img-box{
+        justify-content: center
+        
+    }
+    
+  
+
+     .hero-image{
+        width: 40%;
+        height: auto;
+        
+     }
+
+     .diet-types{
+        grid-column: 1 / -1;
+        justify-self: center;
+     }
+     .card-container{
+        grid-template-columns: repeat(2 , 1fr);
+     }
+
+
+}
+@media (max-width:807px) {
+    
+   
+
+}
+
+@media (max-width:770px){
+    .card-container{
+        grid-template-columns: repeat(1 , 1fr);
+
+    }
+    .book{
+        grid-template-columns: 1fr;
+    }  
+    .gallery{
+        padding: 0 0 0 2rem;
+    }
+    .prize-container{
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 4rem;
+        
+    }
+    .prize-card:nth-child(3){
+        grid-column: 1 / -1;
+        justify-self: center;
+        
+        width: 45%;
+    }
+    
+   
+
+   
+         
+
+}
+@media (max-width:661px){
+    .footer-container{
+        display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    .prize-container{
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 4rem;
+        
+        
+    }
+    .prize-card{
+        width: 45%;
+    }
+    .prize-card:nth-child(3){
+        grid-column: 1 / -1;
+        justify-self: center;
+        
+        width: 45%;
+    }
+}
+
+
+@media (max-width:563px){
+    .logo-feat{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+.headline{
+    padding: 0 1rem 0 1rem;
+}
+.head-nav-list{
+    gap: 3rem;
+}
+.meal-media{
+    padding: 5rem 3rem;
+}
+.gallery{
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+    
+}
+.advantages-box{
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}  
+
+}
+
